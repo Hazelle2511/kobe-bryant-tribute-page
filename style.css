@@ -1,0 +1,100 @@
+body {
+  font: 20px/1 Girassol, sans serief;
+  text-align: center;
+  background-color: black;
+  border: 5px solid purple;
+}
+/* Main */
+
+#main {
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+}
+
+
+/* Title */
+#title {
+  color: white;
+  font-style: Girassol, sans serief;
+}
+/* Image */
+
+#image-div {
+  width: 80%;
+  padding: 20px 20px 20px 20px;
+  margin: auto;
+}
+#image {
+  max-width: 80%;
+  display: block;
+  height: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img-caption {
+  border-bottom: solid 2px yellow;
+}
+/* Description */
+
+.section-heading {
+  color: yellow;
+  font-style: Girassol, sans serief;
+}
+
+
+p {
+  color: white;
+}
+
+#tribute-info {
+  color: white;
+  background: url(http://getwallpapers.com/wallpaper/full/d/2/2/802785-amazing-kobe-bryant-wallpapers-1920x1200.jpg)
+    no-repeat;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container {
+  color: violet;
+}
+
+#tribute-info ul {
+  border-left: 4px solid yellow;
+  border-right: 4px solid yellow;
+  border-radius: 8rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5rem;
+  position: relative;
+}
+
+.tribute-link p {
+  color: blue;
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+  #image {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  #image {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
